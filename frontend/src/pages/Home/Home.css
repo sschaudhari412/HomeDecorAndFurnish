@@ -1,0 +1,77 @@
+.hero-section {
+  height: 75vh;
+  background: url("https://img.freepik.com/premium-photo/modern-living-room-interior-with-sofa-armchair-coffee-table-sideboard-plant-marble-wall-background_41470-5762.jpg") no-repeat center / cover;
+}
+
+.category-card {
+  background: #f8f8f8;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.category-card:hover {
+  background: #ffc107;
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.offer-banner {
+  background: linear-gradient(to right, #111, #444);
+}
+
+.newsletter-section {
+  background: #eee;
+  border-radius: 10px;
+}
+.category-menu .menu-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  margin: 0 18px; /* Increased spacing */
+}
+
+.category-menu .menu-link:hover {
+  color: black; /* Or any color you want */
+  border-bottom: 2px solid #ffc107; /* Optional underline on hover */
+  padding-bottom: 3px; /* Nice spacing look */
+  font-style: bold;
+  font-size: large;
+ 
+}
+.category-menu {
+  background: #fff;
+  border-top: 1px solid #e5e5e5;
+  padding: 8px 0; /* Adds some vertical space too */
+}
+/* Offer Strip */
+.offer-strip {
+  background: #ffc107;
+  color: black;
+  padding: 8px 0;
+  margin-top: 25px;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 0.95rem;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.scroll-text {
+  white-space: nowrap;
+  display: inline-block;
+  animation: scroll-left 14s linear infinite;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

@@ -1,0 +1,57 @@
+/* Search Bar */
+.search-bar {
+  width: 60%;
+  background: #f4f4f4;
+  border-radius: 50px;
+}
+.search-bar input {
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+}
+.search-bar input::placeholder {
+  color: #999;
+}
+
+/* Icons Hover */
+.icon-hover:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/* Wishlist Badge */
+.badge-notify {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: #d9534f;
+  color: white;
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+/* Category Menu */
+.category-menu {
+  background: #fff;
+  border-top: 1px solid #e5e5e5;
+}
+.menu-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.menu-link:hover {
+  color: #ff6f00;
+}
+.dropdown-menu {
+  border-radius: 8px;
+  padding: 8px 0;
+}
+.dropdown-item:hover {
+  background: #f7f7f7;
+  color: #ff6f00;
+}
+.dropdown-toggle::after {
+  margin-left: 5px;
+}

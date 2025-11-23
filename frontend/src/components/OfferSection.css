@@ -1,0 +1,67 @@
+.offer-section {
+  position: relative;
+  width: 100%;
+  margin: 70px 0;
+}
+
+.offer-img {
+  width: 100%;
+  height: 430px;
+  object-fit: cover;
+}
+
+/* Text Overlay */
+.offer-overlay {
+  position: absolute;
+  top: 50%;
+  right: 90px;
+  transform: translateY(-50%);
+  color: #222;
+  font-weight: 700;
+  line-height: 1.3;
+  max-width: 350px;
+}
+
+.offer-overlay h2 {
+  font-size: 3rem;
+}
+.offer-overlay h2 span {
+  color: #e63946;
+}
+
+.offer-overlay p {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+/* Coupon Tag */
+.offer-tag {
+  background: #c82333;
+  padding: 15px;
+  border-radius: 50px;
+  width: 240px;
+  color: #fff;
+  text-align: center;
+}
+
+.coupon {
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+  padding: 6px 14px;
+  border-radius: 6px;
+  margin-top: 6px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .offer-img {
+    height: 280px;
+  }
+
+  .offer-overlay {
+    right: 50%;
+    transform: translate(50%, -50%);
+    text-align: center;
+  }
+}
