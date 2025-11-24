@@ -1,0 +1,48 @@
+.hero-slider {
+  margin-top: 20px;
+}
+
+.slide-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.slide-img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+   z-index: -1;
+     position: relative;
+}
+
+.slide-offer-box {
+  position: absolute;
+  right: 8%;
+  top: 20%;
+  background: #c31a1a;
+  color: white;
+  padding: 35px;
+  width: 260px;
+  border-radius: 4px;
+  text-align: center;
+}
+.mySwiper, .swiper, .swiper-slide {
+  background: transparent !important;
+}
+.slide {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+.hero-slider, .swiper, .swiper-slide {
+  height: 100vh !important;
+  background: transparent !important;
+}
+.slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,45 @@
+.shop-room-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.shop-room-title span {
+  color: #c82333;
+}
+
+.room-card {
+  width: 100%;
+  height: 360px;
+  background: #fff;
+  border-bottom: 2px solid #ffb7b7;
+  border-radius: 50% 50% 0 0;
+  overflow: hidden;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.room-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.room-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.room-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .room-card {
+    height: 250px;
+  }
+  .room-title {
+    font-size: 1.3rem;
+  }
+}
