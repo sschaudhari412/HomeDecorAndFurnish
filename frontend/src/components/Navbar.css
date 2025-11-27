@@ -1,57 +1,103 @@
+/* src/components/Navbar.css */
+
 /* Search Bar */
 .search-bar {
-  width: 60%;
+  max-width: 520px;
+  width: 100%;
   background: #f4f4f4;
-  border-radius: 50px;
+  border-radius: 999px;
+  padding: 6px 16px;
 }
+
 .search-bar input {
   background: transparent;
   outline: none;
   box-shadow: none;
+  border: none;
+  padding-left: 4px;
 }
+
 .search-bar input::placeholder {
   color: #999;
+  font-size: 0.9rem;
 }
 
-/* Icons Hover */
-.icon-hover:hover {
-  opacity: 0.7;
+/* Icons */
+.icon-btn {
+  border: none;
+  background: transparent;
+  font-size: 1.2rem;
+  margin-left: 0.75rem;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s ease, color 0.15s ease;
 }
 
-/* Wishlist Badge */
-.badge-notify {
-  position: absolute;
-  top: -8px;
-  right: -10px;
-  background: #d9534f;
-  color: white;
-  font-size: 11px;
-  padding: 2px 6px;
-  border-radius: 50%;
+.icon-btn:hover {
+  transform: translateY(-1px);
+  color: #ff6f00;
 }
 
-/* Category Menu */
-.category-menu {
-  background: #fff;
-  border-top: 1px solid #e5e5e5;
+/* Category nav */
+.category-nav {
+  font-size: 0.95rem;
 }
+
 .menu-link {
   text-decoration: none;
   color: #333;
   font-weight: 500;
+  padding: 0.75rem 1rem !important;
 }
-.menu-link:hover {
+
+.menu-link:hover,
+.menu-link:focus {
   color: #ff6f00;
 }
+
+/* Dropdown */
 .dropdown-menu {
   border-radius: 8px;
   padding: 8px 0;
+  border: 1px solid #eee;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
 }
+
+.dropdown-item {
+  font-size: 0.9rem;
+}
+
 .dropdown-item:hover {
   background: #f7f7f7;
   color: #ff6f00;
 }
-.dropdown-toggle::after {
-  margin-left: 5px;
+
+.dropdown-header {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  padding-top: 4px;
+  padding-bottom: 2px;
+}
+
+/* Mobile tweaks */
+@media (max-width: 768px) {
+  .search-bar {
+    order: 3;
+    margin-top: 0.5rem;
+  }
+
+  .icon-btn {
+    margin-left: 0.5rem;
+  }
+
+  .menu-link {
+    padding-left: 0 !important;
+  }
+
+  .dropdown-menu {
+    border: none;
+    box-shadow: none;
+  }
 }

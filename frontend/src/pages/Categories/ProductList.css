@@ -1,0 +1,20 @@
+.section-heading {
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: #222;
+}
+
+.section-divider {
+  border-top: 2px solid #eee;
+  margin-top: 30px;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #555;
+}
+
+.breadcrumb a:hover {
+  color: #000;
+  font-weight: 600;
+}
