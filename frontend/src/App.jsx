@@ -21,7 +21,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<ProductList />} />
         <Route path="/products/:id" element={<ProductDetails />} />
-        <Route path="/furniture" element={<Furniture />} />
+        <Route path="/furniture" element={<ProductList />} />
         <Route path="/kitchen-dining" element={<KitchenDining />} />
         <Route path="/home-decor" element={<HomeDecor />} />
         <Route path="/home-furnishing" element={<HomeFurnishing />} />
@@ -34,12 +34,12 @@ function App() {
         <Route path="/furniture/living-room/:section" element={<ProductList />} />
         <Route path="/product/:id" element={<ProductDetails />} />
         //bedroom sections
-        
+
         <Route path="/furniture/bedroom" element={<ProductList />} />
         <Route path="/furniture/bedroom/:section" element={<ProductList />} />
         //dining & study sections
-       <Route path="/:category/:subcategory" element={<ProductList />} />
-<Route path="/furniture/dining-study/:section" element={<ProductList />} />
+        <Route path="/:category/:subcategory" element={<ProductList />} />
+        <Route path="/furniture/dining-study/:section" element={<ProductList />} />
 
 
 
