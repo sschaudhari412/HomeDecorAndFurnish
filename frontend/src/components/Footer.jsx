@@ -1,46 +1,62 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "./Footer.css";
+import { FaFacebookF, FaInstagram, FaPinterestP, FaYoutube, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-dark text-white pt-4 pb-2">
-      <div className="container">
-        <div className="row">
+    <footer className="lux-footer">
 
-          {/* About */}
-          <div className="col-md-4 mb-3">
-            <h5 className="fw-bold">HomeDecor</h5>
-            <p style={{ fontSize: "0.9rem" }}>
-              Premium furniture & décor to make your home more beautiful ✨
-            </p>
-          </div>
-
-          {/* Quick Links */}
-          <div className="col-md-4 mb-3">
-            <h6 className="fw-bold">Quick Links</h6>
-            <ul className="list-unstyled">
-              <li><Link className="text-white text-decoration-none" to="/">Home</Link></li>
-              <li><Link className="text-white text-decoration-none" to="/products/livingroom">Furniture</Link></li>
-              <li><Link className="text-white text-decoration-none" to="/products/decor">Decor</Link></li>
-            </ul>
-          </div>
-
-          {/* Contact */}
-          <div className="col-md-4 mb-3">
-            <h6 className="fw-bold">Contact Us</h6>
-            <p className="mb-1">📞 +91 98765 43210</p>
-            <p className="mb-1">📧 support@homedecor.com</p>
-            <p className="mb-1">🏠 Mumbai, India</p>
-          </div>
-
+      {/* Top */}
+      <div className="container footer-top">
+        {/* Logo + Info */}
+        <div className="footer-col footer-logo">
+          <img src="/assets/logoImg.png" alt="Brand Logo" />
+          <p className="tagline">    Home Decor & Furniture</p>
         </div>
 
-        <hr className="border-secondary" />
-        <p className="text-center" style={{ fontSize: "0.8rem" }}>
-          © {new Date().getFullYear()} HomeDecor. All Rights Reserved.
-        </p>
+        {/* Links */}
+        <div className="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li>About Us</li>
+            <li>Customer Support</li>
+            <li>Store Locator</li>
+            <li>Terms & Conditions</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+
+        {/* Subscribe Box */}
+        <div className="footer-col footer-subscribe">
+          <h4>Stay Updated</h4>
+          <p>Join our newsletter for offers & trends</p>
+          <div className="subscribe-box">
+            <input type="email" placeholder="Enter your email" />
+            <button>→</button>
+          </div>
+
+          {/* Contact Detail Icons */}
+          <div className="footer-contact">
+            <p><FaPhoneAlt /> +91 80 6925 2525</p>
+            <p><FaEnvelope /> support@homedecor.com</p>
+            <p><FaMapMarkerAlt /> Find a store</p>
+          </div>
+
+          {/* Social Icons */}
+          <div className="social-icons">
+            <FaFacebookF />
+            <FaInstagram />
+            <FaPinterestP />
+            <FaYoutube />
+          </div>
+        </div>
       </div>
+
+      {/* Bottom */}
+      <div className="footer-bottom">
+        <p>© 2025 HomeDecorAndFurnish. All rights reserved.</p>
+      </div>
+
     </footer>
   );
 }

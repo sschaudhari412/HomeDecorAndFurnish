@@ -7,7 +7,8 @@ import PopularCategories from "../../components/PopularCategories";
 import OfferSection from "../../components/OfferSection";
 import ShopByRoom from "../../components/ShopByRoom";
 import TrendingProducts from "../../components/TrendingProducts";
-
+import FAQ from "../../components/FAQ";
+import Footer from "../../components/Footer";
 
 const Home = () => {
   return (
@@ -27,6 +28,8 @@ const Home = () => {
       <OfferSection />
       <ShopByRoom />
       <TrendingProducts />
+      <FAQ />
+      < Footer />
       
     </>
   );

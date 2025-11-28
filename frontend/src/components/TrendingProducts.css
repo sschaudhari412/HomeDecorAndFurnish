@@ -45,3 +45,26 @@
 .highlight {
   color: #d14c4c; /* red shade */
 }
+.new-price {
+  color: #16a34a;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-right: 8px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.add-btn {
+  background: #ffcc00 !important;
+  color: #000 !important;
+  font-weight: 600;
+  border: none;
+}
+
+.add-btn:hover {
+  opacity: 0.9;
+}

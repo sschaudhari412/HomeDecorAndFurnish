@@ -1,3 +1,4 @@
+// src/components/Navbar.jsx
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaSearch, FaUser, FaHeart, FaShoppingCart } from "react-icons/fa";
@@ -5,107 +6,97 @@ import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <header className="shadow-sm">
-      <div className="container py-5 d-flex align-items-center justify-content-between">
-        
+    <header className="shadow-sm bg-white">
+      <div className="container py-3 d-flex align-items-center justify-content-between gap-3 flex-wrap">
+
         {/* Logo */}
-        <Link to="/" className="navbar-brand fw-bold fs-1 text-dark ms-1">
-          Home<span className="text-warning">Town</span>
+        <Link to="/" className="navbar-brand fw-bold fs-1 text-dark m-0">
+          Furni<span className="text-warning">verse</span>
         </Link>
 
-        {/* Search Bar */}
-        <div className="search-bar d-flex align-items-center px-1">
+        {/* Search */}
+        <form className="search-bar d-flex align-items-center flex-grow-1">
+          <FaSearch className="me-2" />
           <input
             type="text"
-            className="form-control border-0"
-            placeholder="What are you looking for?"
+            className="form-control border-0 bg-transparent"
+            placeholder="Search for sofas, beds, decor & more…"
           />
-          <FaSearch className="text-dark ms-2" />
-        </div>
+        </form>
 
-        {/* Icons */}
-        <div className="d-flex align-items-center gap-4">
-          <FaUser size={22} className="text-dark icon-hover" />
-
-          <div className="position-relative icon-hover">
-            <FaHeart size={22} className="text-dark" />
-            <span className="badge-notify">0</span>
-          </div>
-
-          <FaShoppingCart size={22} className="text-dark icon-hover" />
+        {/* User / Wishlist / Cart */}
+        <div className="d-flex align-items-center">
+          <button className="icon-btn"><FaUser /></button>
+          <button className="icon-btn"><FaHeart /></button>
+          <button className="icon-btn"><FaShoppingCart /></button>
         </div>
       </div>
 
-   {/* Category Menu with Dropdowns */}
-<nav className="category-menu py-2">
-  <div className="container d-flex gap-4 justify-content-center">
+      {/* Navigation Menu */}
+      <nav className="navbar navbar-expand-lg navbar-light border-top category-nav">
+        <div className="container">
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+            <span className="navbar-toggler-icon" />
+          </button>
 
-    {/* Furniture */}
-    <div className="dropdown">
-      <Link className="menu-link dropdown-toggle" data-bs-toggle="dropdown">
-        Furniture
-      </Link>
-      <ul className="dropdown-menu">
-        <li><Link className="dropdown-item" to="/products/sofa">Sofas</Link></li>
-        <li><Link className="dropdown-item" to="/products/bed">Beds</Link></li>
-        <li><Link className="dropdown-item" to="/products/chair">Chairs</Link></li>
-        <li><Link className="dropdown-item" to="/products/table">Tables</Link></li>
-      </ul>
-    </div>
+          <div className="collapse navbar-collapse" id="mainNavbar">
+            <ul className="navbar-nav mx-auto">
 
-    {/* Kitchen & Dining */}
-    <div className="dropdown">
-      <Link className="menu-link dropdown-toggle" data-bs-toggle="dropdown">
-        Kitchen & Dining
-      </Link>
-      <ul className="dropdown-menu">
-        <li><Link className="dropdown-item" to="/products/diningtable">Dining Tables</Link></li>
-        <li><Link className="dropdown-item" to="/products/cookware">Cookware</Link></li>
-        <li><Link className="dropdown-item" to="/products/dinnerware">Dinnerware</Link></li>
-        <li><Link className="dropdown-item" to="/products/barstool">Bar Stools</Link></li>
-      </ul>
-    </div>
+              {/* FURNITURE MENU */}
+              <li className="nav-item dropdown">
+                <button className="nav-link menu-link dropdown-toggle btn btn-link" type="button" data-bs-toggle="dropdown">
+                  Furniture
+                </button>
+                <ul className="dropdown-menu">
 
-    {/* Home Decor */}
-    <div className="dropdown">
-      <Link className="menu-link dropdown-toggle" data-bs-toggle="dropdown">
-        Home Decor
-      </Link>
-      <ul className="dropdown-menu">
-        <li><Link className="dropdown-item" to="/products/lamps">Lamps</Link></li>
-        <li><Link className="dropdown-item" to="/products/clock">Wall Clocks</Link></li>
-        <li><Link className="dropdown-item" to="/products/vase">Vases</Link></li>
-        <li><Link className="dropdown-item" to="/products/rugs">Rugs</Link></li>
-      </ul>
-    </div>
+                  {/* Living Room */}
+                  <li className="dropdown-header small text-muted">Living Room</li>
+                  <li><Link className="dropdown-item" to="/furniture/living-room/sofas-recliners">Sofas & Recliners</Link></li>
+                  <li><Link className="dropdown-item" to="/furniture/living-room/tv-units">TV Units & Cabinets</Link></li>
+                  <li><Link className="dropdown-item" to="/furniture/living-room/center-side-tables">Center & Side Tables</Link></li>
 
-  {/*Home Furnishing */}
-    <div className="dropdown">
-      <Link className="menu-link dropdown-toggle" data-bs-toggle="dropdown">
-       Home Furnishing
-      </Link>
-      <ul className="dropdown-menu">
-        <li><Link className="dropdown-item" to="/products/sofa">Curtains & Blinds</Link></li>
-        <li><Link className="dropdown-item" to="/products/bed">Bedsheets & Bedding</Link></li>
-        <li><Link className="dropdown-item" to="/products/chair">Cushions & Throws</Link></li>
-        <li><Link className="dropdown-item" to="/products/table">Floor Coverings</Link></li>
-      </ul>
-    </div>
-    {/* Interiors */}
-    <div className="dropdown">
-      <Link className="menu-link dropdown-toggle" data-bs-toggle="dropdown">
-        Interiors
-      </Link>
-      <ul className="dropdown-menu">
-        <li><Link className="dropdown-item" to="/products/falseceiling">False Ceiling</Link></li>
-        <li><Link className="dropdown-item" to="/products/modular">Modular Kitchen</Link></li>
-        <li><Link className="dropdown-item" to="/products/wardrobe">Wardrobes</Link></li>
-        <li><Link className="dropdown-item" to="/products/office">Office Interiors</Link></li>
-      </ul>
-    </div>
+                  <li><hr className="dropdown-divider" /></li>
 
-  </div>
-</nav>
+                  {/* Bedroom */}
+                  <li className="dropdown-header small text-muted">Bedroom</li>
+                  <li><Link className="dropdown-item" to="/furniture/bedroom/beds">Beds</Link></li>
+                  <li><Link className="dropdown-item" to="/furniture/bedroom/bedside-tables">Bedside Tables</Link></li>
+                  <li><Link className="dropdown-item" to="/furniture/bedroom/wardrobes">Wardrobes</Link></li>
+                  <li><Link className="dropdown-item" to="/furniture/bedroom/dressers">Dressers</Link></li>
+
+                  <li><hr className="dropdown-divider" /></li>
+
+                  {/* Dining & Study */}
+                  <li className="dropdown-header small text-muted">Dining & Study</li>
+                  <li><Link className="dropdown-item" to="/furniture/dining-study/dining-sets">Dining Sets & Chairs</Link></li>
+                  <li><Link className="dropdown-item" to="/furniture/dining-study/study-tables">Study Tables</Link></li>
+                  <li><Link className="dropdown-item" to="/furniture/dining-study/office-tables">Office Tables</Link></li>
+
+                </ul>
+              </li>
+
+              {/* OTHER MENU HEADS (as before) */}
+              <li className="nav-item">
+                <Link className="nav-link menu-link" to="/kitchen-dining">Kitchen & Dining</Link>
+              </li>
+
+              <li className="nav-item">
+                <Link className="nav-link menu-link" to="/home-decor">Home Decor</Link>
+              </li>
+
+              <li className="nav-item">
+                <Link className="nav-link menu-link" to="/home-furnishing">Home Furnishing</Link>
+              </li>
+
+              <li className="nav-item">
+                <Link className="nav-link menu-link" to="/interiors">Interiors</Link>
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+      </nav>
     </header>
   );
 }
