@@ -3,13 +3,17 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home/Home.jsx";
 import ProductList from "./pages/Categories/ProductList.jsx";
 import ProductDetails from "./pages/ProductDetails";
-import Furniture from "./pages/Categories/Furniture";
 import KitchenDining from "./pages/Categories/KitchenDining";
 import HomeDecor from "./pages/Categories/HomeDecor";
 import HomeFurnishing from "./pages/Categories/HomeFurnishing";
 import Interiors from "./pages/Categories/Interiors";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Splash from './pages/Splash.jsx';
+import LoginPage from './pages/Auth/LoginPage.jsx';
+import RegisterPage from './pages/Auth/RegisterPage.jsx';
+// import { ToastContainer, toast } from "react-toastify";
+// import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
@@ -18,6 +22,17 @@ function App() {
       <Navbar />
 
       <Routes>
+
+      {/* Default route → Splash screen */}
+        <Route path="/" element={<Splash />} />
+
+        {/* Auth routes */}
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/register" element={<RegisterPage />} />
+
+        {/* Main website */}
+        <Route path="/home" element={<Home />} />
+
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<ProductList />} />
         <Route path="/products/:id" element={<ProductDetails />} />
@@ -42,8 +57,11 @@ function App() {
         <Route path="/furniture/dining-study/:section" element={<ProductList />} />
 
 
-
+        <Route path="/product/:id" element={<ProductDetails />} />
       </Routes>
+
+      {/* <ToastContainer position="top-right" autoClose={1500} /> */}
+
     </BrowserRouter>
 
   );

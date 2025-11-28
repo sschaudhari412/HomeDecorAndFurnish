@@ -420,7 +420,7 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "beds",
-  image: "https://m.media-amazon.com/images/I/61fW1ZiKvaL._AC_.jpg"
+  image: "https://isaak.com.au/cdn/shop/files/Astra-Emily-Blue-Velvet-Gold-Legs-Double-Bed-Frame-1.png?v=1733186581&width=416"
 },
 {
   id: 237,
@@ -431,7 +431,7 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "beds",
-  image: "https://m.media-amazon.com/images/I/81SUkRZjzQL._AC_SL1500_.jpg"
+  image: "https://ik.imagekit.io/2xkwa8s1i/img/npl_modified_images/PETASTLEOR/Bed_WEWB7872HYSASTRA/Bed_WEWB7872HYSASTRA_1.jpg?tr=w-1200"
 },
 {
   id: 238,
@@ -442,7 +442,7 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "beds",
-  image: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80"
+  image: "https://www.royaloakindia.com/media/catalog/product/b/d/bd122201-5-55-01_11__2_1.jpg"
 },
 {
   id: 239,
@@ -453,29 +453,29 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "beds",
-  image: "https://images.unsplash.com/photo-1549187774-b4e9b0445b06?q=80"
+  image: "https://m.media-amazon.com/images/I/71m2ahrqy5L._AC_UF350,350_QL50_.jpg"
 },
 {
   id: 240,
-  title: "Minimalist Low Height Bed",
-  price: 23999,
-  mrp: 38999,
-  discount: "39% Off",
+  title: "Smart Storage Lift-Up Bed",
+  price: 25999,
+  mrp: 28899,
+  discount: "11% Off",
   category: "furniture",
   subcategory: "bedroom",
   section: "beds",
-  image: "https://images.unsplash.com/photo-1588722942480-bfb8c8b0c19a?q=80"
+  image: "https://woodstage.in/wp-content/uploads/2024/12/1a-7.jpg"
 },
 {
   id: 241,
-  title: "Modern Fabric Platform Bed",
-  price: 34999,
-  mrp: 56999,
-  discount: "39% Off",
+  title: "Premium Teak Queen Bed",
+  price: 33999,
+  mrp: 57999,
+  discount: "41% Off",
   category: "furniture",
   subcategory: "bedroom",
   section: "beds",
-  image: "https://m.media-amazon.com/images/I/61TGtZR0dSL._AC_SL1080_.jpg"
+  image: "https://woodentwist.com/cdn/shop/products/71Wpp6qQXoL._AC_SL1200.jpg?v=1743258015"
 },
 {
   id: 242,
@@ -486,22 +486,66 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "beds",
-  image: "https://m.media-amazon.com/images/I/71Zug5qsuuL._AC_SL1500_.jpg"
+  image: "https://www.squaro.in/cdn/shop/files/1699115759902.png?v=1709836076&width=1445"
 },
 {
   id: 243,
-  title: "Premium Teak Queen Bed",
-  price: 33999,
-  mrp: 57999,
-  discount: "41% Off",
+  title: "Modern Fabric Platform Bed",
+  price: 34999,
+  mrp: 56999,
+  discount: "39% Off",
   category: "furniture",
   subcategory: "bedroom",
   section: "beds",
-  image: "https://m.media-amazon.com/images/I/81SToFRnR+L._AC_SL1500_.jpg"
+  image: "https://www.estre.in/cdn/shop/files/2-min_ff799abb-5f84-47b5-a568-6df0d6002394_533x.jpg?v=1743763297"
+},
+{
+  id: 244,
+  title: "Minimalist Low Height Bed",
+  price: 23999,
+  mrp: 38999,
+  discount: "39% Off",
+  category: "furniture",
+  subcategory: "bedroom",
+  section: "beds",
+  image: "https://www.woodsala.com/cdn/shop/files/5_73c00cd3-6efb-40ad-bb03-520975820612.jpg?v=1752568575"
+},
+{
+  id: 245,
+  title: "Wooden Car Bed For Kids",
+  price: 110000,
+  mrp: 157300 ,
+  discount: "30% Off",
+  category: "furniture",
+  subcategory: "bedroom",
+  section: "beds",
+  image: "https://edusparktoys.com/cdn/shop/files/Wooden-Race-Car-Bed-Casa-Moderna-1690997390600.jpg?v=1690997391"
+},
+{
+  id: 246,
+  title: "Twin Bunk Beds For Kids With Storage",
+  price: 87199,
+  mrp: 150000,
+  discount: "42% Off",
+  category: "furniture",
+  subcategory: "bedroom",
+  section: "beds",
+  image: "https://media.hunyhuny.com/7935-large_default/twin-bunk-bed-for-kids-with-storage-steps-drawers-and-two-mattresses-blue.jpg"
+},
+{
+  id: 247,
+  title: "Todler Bed With Rails",
+  price: 32594,
+  mrp: 54323,
+  discount: "40% Off",
+  category: "furniture",
+  subcategory: "bedroom",
+  section: "beds",
+  image: "https://i.etsystatic.com/52805190/r/il/ef4c2f/6186920384/il_fullxfull.6186920384_cekt.jpg"
 },
 //Bedside Tables
 {
-  id: 244,
+  id: 248,
   title: "Nordic Bedside Table with Drawer",
   price: 4999,
   mrp: 8999,
@@ -509,10 +553,10 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "bedside-tables",
-  image: "https://m.media-amazon.com/images/I/71Ud2W2Y13L._AC_SL1500_.jpg"
+  image: "https://indiannest.in/cdn/shop/files/d51ab04bb4374493b24358af6d32c32c.jpg?v=1691013866"
 },
 {
-  id: 245,
+  id: 249,
   title: "Sheesham Wood Nightstand",
   price: 5699,
   mrp: 9999,
@@ -520,10 +564,10 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "bedside-tables",
-  image: "https://m.media-amazon.com/images/I/71IN1uKU6jL._AC_SL1500_.jpg"
+  image: "https://inmarwar.com/cdn/shop/files/bedside-table-1_224a593e-6b29-4618-af24-6c68c130c3ae.jpg?v=1705387742&width=1080"
 },
 {
-  id: 246,
+  id: 250,
   title: "Classic Side Table With Storage",
   price: 6299,
   mrp: 10999,
@@ -531,10 +575,10 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "bedside-tables",
-  image: "https://m.media-amazon.com/images/I/61q6YkTkp1L._AC_SL1500_.jpg"
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitn1RiBSmbwHIqC8oZjPxkOxJDJJ74_51nA&s"
 },
 {
-  id: 247,
+  id: 251,
   title: "White Modern Bedside Table",
   price: 4599,
   mrp: 8999,
@@ -542,12 +586,95 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "bedside-tables",
-  image: "https://m.media-amazon.com/images/I/61aRDxIuZbL._AC_SL1500_.jpg"
+  image: "https://images.woodenstreet.de/image/cache/data/Eclare+Bedside+table/white+color/6-810x702.jpg"
 },
+{
+  id: 252,
+  title: "Atone Bedside table",
+  price: 2626,
+  mrp: 5899,
+  discount: "55% Off",
+  category: "furniture",
+  subcategory: "bedroom",
+  section: "bedside-tables",
+  image: "https://ik.imagekit.io/2xkwa8s1i/img/bedside-tables/New/WBDSTATONE/1.jpg?tr=w-1200"
+},
+{
+  id: 253,
+  title: "Curved Wooden Floating Wooden Bedside Table",
+  price: 1353,
+  mrp: 1597,
+  discount: "59% Off",
+  category: "furniture",
+  subcategory: "bedroom",
+  section: "bedside-tables",
+  image: "https://m.media-amazon.com/images/I/61b4R8FNsRL._SX679_.jpg"
+},{
+  id: 254,
+  title: "2 Shelf Black Side Table with Door",
+  price: 676,
+  mrp: 1090,
+  discount: "27% Off",
+  category: "furniture",
+  subcategory: "bedroom",
+  section: "bedside-tables",
+  image: "https://m.media-amazon.com/images/I/41gsg--85cL._SY300_SX300_QL70_FMwebp_.jpg"
+},{
+  id: 255,
+  title: "Modern Bedside Table",
+  price: 618,
+  mrp: 1000,
+  discount: "35% Off",
+  category: "furniture",
+  subcategory: "bedroom",
+  section: "bedside-tables",
+  image: "https://m.media-amazon.com/images/I/71NN22n6UXL._SX679_.jpg"
+},{
+  id: 256,
+  title: "Walnut Mid-Century Side Table",
+  price: 12558,
+  mrp: 15599.,
+  discount: "5% Off",
+  category: "furniture",
+  subcategory: "bedroom",
+  section: "bedside-tables",
+  image: "https://m.media-amazon.com/images/I/613jVxuM71L._SX679_.jpg"
+},{
+  id: 257,
+  title: "Elegant Oak Bedside Drawer Unit",
+  price: 7151,
+  mrp: 17891,
+  discount: "60% Off",
+  category: "furniture",
+  subcategory: "bedroom",
+  section: "bedside-tables",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3R8vRN_11bybSbhBLJoYs9s73Bmn6vJQ-8A&s"
+},{
+  id: 258,
+  title: "Vintage Wooden Bedside Table",
+  price: 2570,
+  mrp: 3800,
+  discount: "29% Off",
+  category: "furniture",
+  subcategory: "bedroom",
+  section: "bedside-tables",
+  image: "https://m.media-amazon.com/images/I/61L0aXdxNDL._SX679_.jpg"
+},{
+  id: 259,
+  title: "2 Drawer End Table",
+  price: 1905,
+  mrp: 5999,
+  discount: "63% Off",
+  category: "furniture",
+  subcategory: "bedroom",
+  section: "bedside-tables",
+  image: "https://m.media-amazon.com/images/I/41py6154o-L._SY300_SX300_QL70_FMwebp_.jpg"
+},
+
 
 // Bedroom → Wardrobes & Dressers
 {
-  id: 236,
+  id: 260,
   title: "Modern Sliding Door Wardrobe",
   price: 24999,
   mrp: 39999,
@@ -555,10 +682,10 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "wardrobes",
-  image: "https://m.media-amazon.com/images/I/71xUHAw1O-L.jpg"
+  image: "https://image.made-in-china.com/2f0j00OqIgihprbcko/Sliding-Door-Wardrobe-Modern-Minimalist-Large-Wardrobe-Home-Light-Luxury-Bedroom-Storage-Cabinet.webp"
 },
 {
-  id: 237,
+  id: 261,
   title: "Premium Sheesham Wood Wardrobe",
   price: 32999,
   mrp: 52999,
@@ -566,10 +693,10 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "wardrobes",
-  image: "https://m.media-amazon.com/images/I/81Y4W9Mp5QL.jpg"
+  image: "https://m.media-amazon.com/images/I/71rghAsi1mL._AC_UF894,1000_QL80_.jpg"
 },
 {
-  id: 238,
+  id: 262,
   title: "4-Door Storage Cupboard",
   price: 21999,
   mrp: 35999,
@@ -577,10 +704,10 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "wardrobes",
-  image: "https://m.media-amazon.com/images/I/71lMCQtkbcL.jpg"
+  image: "https://images.woodenstreet.de/image/cache/data/wardrobes-mdf/zyra-4-door-wardrobe-without-mirror-gothic-grey-classic-oak-finish/new-logo/1-750x650.jpg"
 },
 {
-  id: 239,
+  id: 263,
   title: "Glossy White Wardrobe With Mirror",
   price: 28999,
   mrp: 47999,
@@ -588,10 +715,10 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "wardrobes",
-  image: "https://m.media-amazon.com/images/I/71yfzLMXJZL.jpg"
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw_8wekxFQ5uYIVdQOVT7w_zUzVxMIPx7pwQ&s"
 },
 {
-  id: 240,
+  id: 264,
   title: "Classic Wooden Almirah",
   price: 18999,
   mrp: 30999,
@@ -599,10 +726,10 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "wardrobes",
-  image: "https://m.media-amazon.com/images/I/61wuZ9tcAXL.jpg"
+  image: "https://s3-blog.homelane.com/design-ideas/wp-content/uploads/2025/10/09141347/antique-traditional-wooden-almirah-design-for-bedroom--1024x640.png"
 },
 {
-  id: 241,
+  id: 265,
   title: "2-Door Steel Wardrobe",
   price: 15999,
   mrp: 24999,
@@ -610,10 +737,10 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "wardrobes",
-  image: "https://m.media-amazon.com/images/I/41ZTW7ftHSL.jpg"
+  image: "https://m.media-amazon.com/images/I/61bGLxluiFL._AC_UF894,1000_QL80_.jpg"
 },
 {
-  id: 242,
+  id: 266,
   title: "Sliding Wardrobe with Drawer Storage",
   price: 29999,
   mrp: 48999,
@@ -621,10 +748,10 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "wardrobes",
-  image: "https://m.media-amazon.com/images/I/61CieCjKdEL.jpg"
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7bTFifp_6k5443WQGz7mtRgoDepGpq-gfqA&s"
 },
 {
-  id: 243,
+  id: 267,
   title: "Kids Multicolor Wardrobe",
   price: 12999,
   mrp: 19999,
@@ -632,10 +759,10 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "wardrobes",
-  image: "https://m.media-amazon.com/images/I/51uEG9jM2DL.jpg"
+  image: "https://image.made-in-china.com/202f0j00mNDWRiFKlQco/Kids-Wardrobes-Bedroom-Furniture-Boys-Childs-Wood-Wardrobe.webp"
 },
 {
-  id: 244,
+  id: 268,
   title: "Minimalist Double Door Cupboard",
   price: 17999,
   mrp: 29999,
@@ -643,10 +770,10 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "wardrobes",
-  image: "https://m.media-amazon.com/images/I/71n9Pp8UE1L.jpg"
+  image: "https://m.media-amazon.com/images/I/81BDdXZfjLL._AC_UF894,1000_QL80_.jpg"
 },
 {
-  id: 245,
+  id: 269,
   title: "Mirror Wardrobe with Side Shelves",
   price: 26999,
   mrp: 44999,
@@ -654,10 +781,10 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "wardrobes",
-  image: "https://m.media-amazon.com/images/I/71vP8QxHcCL.jpg"
+  image: "https://media-uk.landmarkshops.in/cdn-cgi/image/h=1200,w=1200,q=85,fit=cover/homecentre/1000013072958-1000013072958-1109_01-2100.jpg"
 },
 {
-  id: 246,
+  id: 270,
   title: "Rustic Oak Wardrobe",
   price: 20999,
   mrp: 35999,
@@ -665,10 +792,10 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "wardrobes",
-  image: "https://m.media-amazon.com/images/I/81-ox5PMTXL.jpg"
+  image: "https://i.pinimg.com/474x/e4/d4/0a/e4d40aa1bd1a4cc39ba0e292ffc79e07.jpg"
 },
 {
-  id: 247,
+  id: 271,
   title: "Luxury 6-Door Modular Wardrobe",
   price: 35999,
   mrp: 57999,
@@ -676,275 +803,7 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "wardrobes",
-  image: "https://m.media-amazon.com/images/I/71Vh4uykMXL.jpg"
-},
-
-// Dining & Study → Dining Sets & Chairs 
-{
-  id: 248,
-  title: "4-Seater Wooden Dining Set",
-  price: 18999,
-  mrp: 29999,
-  discount: "37% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/71FSqwbgh8L.jpg"
-},
-{
-  id: 249,
-  title: "Marble Top Dining Table",
-  price: 24999,
-  mrp: 40999,
-  discount: "39% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/81ZRTZJleCL.jpg"
-},
-{
-  id: 250,
-  title: "Modern Metal & Wood Dining Set",
-  price: 21999,
-  mrp: 36999,
-  discount: "41% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/81z0YATq5lL.jpg"
-},
-{
-  id: 251,
-  title: "6-Seater Premium Dining Table",
-  price: 31999,
-  mrp: 52999,
-  discount: "40% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/81Ce4fKysDL.jpg"
-},
-{
-  id: 252,
-  title: "Vintage Teak Dining Set",
-  price: 25999,
-  mrp: 42999,
-  discount: "39% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/91K1uTNMB9L.jpg"
-},
-{
-  id: 253,
-  title: "Round Compact Dining Table",
-  price: 15999,
-  mrp: 27999,
-  discount: "43% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/91R7sIHuQAL.jpg"
-},
-{
-  id: 254,
-  title: "Foldable Dining Table with Chairs",
-  price: 17999,
-  mrp: 31999,
-  discount: "44% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/81j0BmoUvDL.jpg"
-},
-{
-  id: 255,
-  title: "Scandinavian Style Dining Chairs (Set of 4)",
-  price: 12999,
-  mrp: 22999,
-  discount: "43% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/61Z6gWViRyL.jpg"
-},
-{
-  id: 256,
-  title: "Bar Height Dining Set",
-  price: 19999,
-  mrp: 33999,
-  discount: "41% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/71NGEbN4pYL.jpg"
-},
-{
-  id: 257,
-  title: "Wooden Dining Table with Bench",
-  price: 23999,
-  mrp: 39999,
-  discount: "40% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/81CIAyrEdRL.jpg"
-},
-{
-  id: 258,
-  title: "Luxury Velvet Dining Chairs (Set of 4)",
-  price: 9999,
-  mrp: 16999,
-  discount: "41% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/71kCywwRjRL.jpg"
-},
-{
-  id: 259,
-  title: "Bohemian Cane Dining Chairs (Set of 2)",
-  price: 8999,
-  mrp: 15999,
-  discount: "44% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/71iTzM8ST8L.jpg"
-},
-
-// Dining & Study → Study & Office Tables 
-{
-  id: 260,
-  title: "ErgoLift Study Table with Bookshelf",
-  price: 8999,
-  mrp: 15999,
-  discount: "44% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "study-office-tables",
-  image: "https://m.media-amazon.com/images/I/71ysHPGZFML.jpg"
-},
-{
-  id: 261,
-  title: "Compact Wooden Study Desk",
-  price: 5999,
-  mrp: 11999,
-  discount: "50% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "study-office-tables",
-  image: "https://m.media-amazon.com/images/I/61JAFW17BjL.jpg"
-},
-{
-  id: 262,
-  title: "Height Adjustable Office Table",
-  price: 12999,
-  mrp: 21999,
-  discount: "41% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "study-office-tables",
-  image: "https://m.media-amazon.com/images/I/71gRrhSHKfL.jpg"
-},
-{
-  id: 263,
-  title: "Modern Writing Table with Drawer",
-  price: 7499,
-  mrp: 13999,
-  discount: "46% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "study-office-tables",
-  image: "https://m.media-amazon.com/images/I/71kU8u5NRBL.jpg"
-},
-{
-  id: 264,
-  title: "Corner Study Table",
-  price: 9999,
-  mrp: 16999,
-  discount: "41% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "study-office-tables",
-  image: "https://m.media-amazon.com/images/I/71TGFIsbrvL.jpg"
-},
-{
-  id: 265,
-  title: "Wall Mounted Foldable Study Desk",
-  price: 4499,
-  mrp: 8999,
-  discount: "50% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "study-office-tables",
-  image: "https://m.media-amazon.com/images/I/61f4uV6BYFL.jpg"
-},
-{
-  id: 266,
-  title: "Premium Office Desk with Cabinet",
-  price: 14999,
-  mrp: 24999,
-  discount: "40% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "study-office-tables",
-  image: "https://m.media-amazon.com/images/I/71J7jUsVTwL.jpg"
-},
-{
-  id: 267,
-  title: "Glass Top Computer Table",
-  price: 7999,
-  mrp: 14999,
-  discount: "47% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "study-office-tables",
-  image: "https://m.media-amazon.com/images/I/716EM9qxBHL.jpg"
-},
-{
-  id: 268,
-  title: "Study Table with Hutch Storage",
-  price: 11499,
-  mrp: 19999,
-  discount: "42% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "study-office-tables",
-  image: "https://m.media-amazon.com/images/I/61EcZURgYQL.jpg"
-},
-{
-  id: 269,
-  title: "Metal Frame Workstation Table",
-  price: 6999,
-  mrp: 12999,
-  discount: "46% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "study-office-tables",
-  image: "https://m.media-amazon.com/images/I/71nCrAQf4+L.jpg"
-},
-{
-  id: 270,
-  title: "Minimalist Writing Desk",
-  price: 5499,
-  mrp: 9999,
-  discount: "45% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "study-office-tables",
-  image: "https://m.media-amazon.com/images/I/61CwQ4Ko1iL.jpg"
-},
-{
-  id: 271,
-  title: "Laptop Table with Storage Shelf",
-  price: 4999,
-  mrp: 7999,
-  discount: "38% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "study-office-tables",
-  image: "https://m.media-amazon.com/images/I/61yzkBQ6RQL.jpg"
+  image: "https://5.imimg.com/data5/SELLER/Default/2024/8/445011789/IE/YM/BN/227090706/customizable-modular-wardrobes.jpg"
 },
 
 // Bedroom → Dressers 
@@ -957,7 +816,7 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "dressers",
-  image: "https://m.media-amazon.com/images/I/71EwG9D5ZHL._AC_SL1500_.jpg"
+  image: "https://m.media-amazon.com/images/I/71cn1gsla-L._AC_UF894,1000_QL80_.jpg"
 },
 {
   id: 273,
@@ -968,7 +827,7 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "dressers",
-  image: "https://m.media-amazon.com/images/I/61bH1oW3vDL._AC_SL1500_.jpg"
+  image: "https://m.media-amazon.com/images/I/81AIKfyuXoL._AC_UF894,1000_QL80_.jpg"
 },
 {
   id: 274,
@@ -979,7 +838,7 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "dressers",
-  image: "https://m.media-amazon.com/images/I/81pKZo2kXxL._AC_SL1500_.jpg"
+  image: "https://kuberfurniture.com/wp-content/uploads/2024/08/Kuber-Sheesham-Wood-Chest-of-Drawer-1.webp"
 },
 {
   id: 275,
@@ -990,7 +849,7 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "dressers",
-  image: "https://m.media-amazon.com/images/I/71WpgsV5jyL._AC_SL1500_.jpg"
+  image: "https://www.bedshed.com.au/img/containers/products/Public/WebFurniture/Bedshed-Portland-Timber-Dresser-Mirror-Storage-2.jpg/351fa51864bb436436fb7dadd3243a05/Bedshed-Portland-Timber-Dresser-Mirror-Storage-2.jpg"
 },
 {
   id: 276,
@@ -1001,7 +860,7 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "dressers",
-  image: "https://m.media-amazon.com/images/I/71pskC5adnL._AC_SL1500_.jpg"
+  image: "https://i5.walmartimages.com/seo/Aiho-4-Drawer-Dresser-for-Bedroom-Tall-Wood-Dresser-with-Large-Drawer-Delicate-Handles-for-Closet-Living-Room-Hallway-Dark-Brown_551ae4c1-0bf3-40fa-be1f-8ad4cdb230cb.7f3c03f7cf41f059bf340a5ba8f14c98.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
 },
 {
   id: 277,
@@ -1012,7 +871,7 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "dressers",
-  image: "https://m.media-amazon.com/images/I/71dV1szeaQL._AC_SL1500_.jpg"
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRveL6XKvmK98MHHVnPX0YFnz0V1z8FsGTmDA&s"
 },
 {
   id: 278,
@@ -1023,7 +882,7 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "dressers",
-  image: "https://m.media-amazon.com/images/I/71p5kVyXGmL._AC_SL1500_.jpg"
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-5xrxTpsxmmTorvk0sP229HZzs3xV5iQqHg&s"
 },
 {
   id: 279,
@@ -1034,7 +893,7 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "dressers",
-  image: "https://m.media-amazon.com/images/I/81Uz7xlY7UL._AC_SL1500_.jpg"
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQplAOpJX2bJy8kGXPSGXRi9m3N7aCFkH0VVg&s"
 },
 {
   id: 280,
@@ -1045,7 +904,7 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "dressers",
-  image: "https://m.media-amazon.com/images/I/71oKQGN3OQL._AC_SL1500_.jpg"
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRw-8zL6A26Twot4MhM8LaMuiFIA18U-a6KQ&s"
 },
 {
   id: 281,
@@ -1056,7 +915,7 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "dressers",
-  image: "https://m.media-amazon.com/images/I/71mIYpAjoVL._AC_SL1500_.jpg"
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgJhbgOUdTQpys6mr4d3aTn3qKykBZDhD4Lw&s"
 },
 {
   id: 282,
@@ -1067,7 +926,7 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "dressers",
-  image: "https://m.media-amazon.com/images/I/71K8XkXxCpL._AC_SL1500_.jpg"
+  image: "https://www.bigw.com.au/medias/sys_master/images/images/h09/hb8/98094166016030.jpg"
 },
 {
   id: 283,
@@ -1078,100 +937,122 @@ const products = [
   category: "furniture",
   subcategory: "bedroom",
   section: "dressers",
-  image: "https://m.media-amazon.com/images/I/71mQgoPqgTL._AC_SL1500_.jpg"
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRvhbcVecRM9QeftoQyWoEabAJeMmpyBcClg&s"
 },
 
-// Dining & Study → Dining sets & Chairs
+// Dining & Study → Dining Sets & Chairs 
 {
   id: 284,
-  title: "4 Seater Solid Wood Dining Set",
+  title: "4-Seater Wooden Dining Set",
   price: 18999,
   mrp: 29999,
   discount: "37% Off",
   category: "furniture",
   subcategory: "dining-study",
   section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/71FSqwbgh8L.jpg"
+  image: "https://images.woodenstreet.de/image/data/dining-set/4-seater/adolph-4-seater-dining-set/revised/honey/updated/new-logo/1.jpg"
 },
 {
   id: 285,
-  title: "6 Seater Premium Glass Dining Table",
+  title: "Marble Top Dining Table",
+  price: 24999,
+  mrp: 40999,
+  discount: "39% Off",
+  category: "furniture",
+  subcategory: "dining-study",
+  section: "dining-sets",
+  image: "https://images.jdmagicbox.com/quickquotes/images_main/rectangular-marble-top-dining-table-40x30-inch-2223505952-o150jc5b.jpg"
+},
+{
+  id: 286,
+  title: "Modern Metal & Wood Dining Set",
+  price: 21999,
+  mrp: 36999,
+  discount: "41% Off",
+  category: "furniture",
+  subcategory: "dining-study",
+  section: "dining-sets",
+  image: "https://images-cdn.ubuy.ae/64fbea32fee21628c511df86-tribesigns-dining-table-for-6-8-people.jpg"
+},
+{
+  id: 287,
+  title: "6-Seater Premium Dining Table",
   price: 31999,
   mrp: 52999,
   discount: "40% Off",
   category: "furniture",
   subcategory: "dining-study",
   section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/81Ce4fKysDL.jpg"
+  image: "https://m.media-amazon.com/images/I/81KQ5GQfrXL.jpg"
 },
 {
-  id: 286,
-  title: "Compact 2 Seater Dining Set",
-  price: 11999,
-  mrp: 20999,
-  discount: "43% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/61GtP2ITzTL.jpg"
-},
-{
-  id: 287,
-  title: "Vintage Teak Dining Table Set",
+  id: 288,
+  title: "Vintage Teak Dining Set",
   price: 25999,
   mrp: 42999,
   discount: "39% Off",
   category: "furniture",
   subcategory: "dining-study",
   section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/91K1uTNMB9L.jpg"
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU-pUILNimoGdQrAXAp6qLhZQkpPjkWxtIhQ&s"
 },
 {
-  id: 288,
-  title: "Round Wooden Dining Table",
+  id: 289,
+  title: "Round Compact Dining Table",
   price: 15999,
   mrp: 27999,
   discount: "43% Off",
   category: "furniture",
   subcategory: "dining-study",
   section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/91R7sIHuQAL.jpg"
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkryjX1GgdE9iUW1JfzadWYCSlY1NnRfrDjA&s"
 },
 {
-  id: 289,
-  title: "Folding Dining Table with Chairs",
+  id: 290,
+  title: "Foldable Dining Table with Chairs",
   price: 17999,
   mrp: 31999,
   discount: "44% Off",
   category: "furniture",
   subcategory: "dining-study",
   section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/81j0BmoUvDL.jpg"
+  image: "https://induscraft.com/cdn/shop/files/SpicySheeshamModern4SeaterFoldableDiningSetwithDrawers_6.webp?v=1761800915&width=1445"
 },
 {
-  id: 290,
-  title: "Bar Style High Dining Set",
-  price: 20999,
-  mrp: 33999,
-  discount: "38% Off",
+  id:  291,
+  title: "Scandinavian Style Dining Chairs (Set of 4)",
+  price: 12999,
+  mrp: 22999,
+  discount: "43% Off",
   category: "furniture",
   subcategory: "dining-study",
   section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/71NGEbN4pYL.jpg"
+  image: "https://blog.buyerselect.com/wp-content/uploads/2024/06/scandinavian-dining-room.jpg"
 },
 {
-  id: 291,
-  title: "Wooden Dining Set with Bench",
+  id:  292,
+  title: "Bar Height Dining Set",
+  price: 19999,
+  mrp: 33999,
+  discount: "41% Off",
+  category: "furniture",
+  subcategory: "dining-study",
+  section: "dining-sets",
+  image: "https://images-cdn.ubuy.com.sa/65cfbc82df72142a7632caa0-bar-table-set-for-2-sesslife-round-wood.jpg"
+},
+{
+  id: 293,
+  title: "Wooden Dining Table with Bench",
   price: 23999,
   mrp: 39999,
   discount: "40% Off",
   category: "furniture",
   subcategory: "dining-study",
   section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/81CIAyrEdRL.jpg"
+  image: "https://i.etsystatic.com/16899246/r/il/b7dc8a/2668065537/il_570xN.2668065537_roga.jpg"
 },
 {
-  id: 292,
+  id: 294,
   title: "Luxury Velvet Dining Chairs (Set of 4)",
   price: 9999,
   mrp: 16999,
@@ -1179,41 +1060,18 @@ const products = [
   category: "furniture",
   subcategory: "dining-study",
   section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/71kCywwRjRL.jpg"
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWS-nYReK31F1_ik7Rk5yCA8bWU8Gz3IiQxw&s"
 },
 {
-  id: 293,
-  title: "Boho Cane Dining Chairs (Set of 2)",
+  id: 295,
+  title: "Bohemian Cane Dining Chairs (Set of 2)",
   price: 8999,
   mrp: 15999,
   discount: "44% Off",
   category: "furniture",
   subcategory: "dining-study",
   section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/71iTzM8ST8L.jpg"
-},
-{
-  id: 294,
-  title: "Modern Metal & Wood Dining Table",
-  price: 21999,
-  mrp: 36999,
-  discount: "41% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/81z0YATq5lL.jpg"
-},
-
-{
-  id: 295,
-  title: "8 Seater Royal Dining Set",
-  price: 35999,
-  mrp: 58999,
-  discount: "39% Off",
-  category: "furniture",
-  subcategory: "dining-study",
-  section: "dining-sets",
-  image: "https://m.media-amazon.com/images/I/81rE5cw5ZTL.jpg"
+  image: "https://images.thdstatic.com/productImages/3cbef8a3-5a20-4222-930c-7b9c1a834592/svn/coporesell-outdoor-dining-chairs-clsupc11bro-64_600.jpg"
 },
 
 //study tables
